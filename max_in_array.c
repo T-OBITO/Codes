@@ -5,9 +5,9 @@ int main(){
     for (int i=0;i<6;i++){
         if (max<arr[i]){
             max=arr[i];
-            indx=i;
+            indx=i+1;
         }
     }
-    printf("Maximum number from the array= %d at %d",max,indx);
+    printf("Maximum number from the array is %d at %d",max,indx);
     return 0;
 }
